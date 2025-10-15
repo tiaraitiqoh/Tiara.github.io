@@ -3,53 +3,6 @@
 <head>
 <style>
 table, th, td {
-  border: 1px solid pink;
-}
-</style>
-</head>
-<body>
-
-<h2>Table With Border</h2>
-
-<p>Use the CSS border property to add a border to the table.</p>
-
-<table style="width:100%">
-  <tr>
-    <th>NO</th>
-    <th>NIS</th>
-    <th style="width:70%">NAMA</th>
-    <th>KELAS</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>7574</td>
-    <td>Tiara</td>
-    <td>XI TJKT 1</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>7575</td>
-    <td>Ela</td>
-    <td>XI TJKT 1</td>
-  </tr>
-  <td>3</td>
-    <td>7576</td>
-    <td>Shifa</td>
-    <td>XI TJKT 1</td>
-    </tr>
-  <td>4</td>
-    <td>7577</td>
-    <td>Lifana</td>
-    <td>XI TJKT 1</td>
-    </tr>
-  <td>5</td>
-    <td>7578</td>
-    <td>Fitri</td>
-    <td>XI TJKT 1</td>
-    </tr>
-</table>
-<style>
-table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
@@ -57,53 +10,62 @@ table, th, td {
 </head>
 <body>
 
-<h2>Vertical Table Headers</h2>
+<h2>TABEL NILAI KELAS XI TJKT 1</h2>
 
-<p>The first column becomes table headers if you set the first table cell in each table row to a TH element:</p>
 
 <table style="width:100%">
   <tr>
-    <th>Firstname</th>
-    <td>Jill</td>
-    <td>Eve</td>
+    <th rowspan="2">No</th>
+    <th rowspan="2">Nama</th>
+    <th rowspan="2">Kelas</th>
+    <th colspan="2">NILAI ADAPTIF</th>
+    <th colspan="3">NILAI PRODUKTIF</th>
+   
   </tr>
   <tr>
-    <th>Lastname</th>
-    <td>Smith</td>
-    <td>Jackson</td>
+    <td>PKN</td>
+    <td>MATE</td>
+    <td>HTML</td>
+    <td>CSS</td>
+    <td>JS</td>
   </tr>
   <tr>
-    <th>Age</th>  
-    <td>50</td>
-    <td>94</td>
+    <td>1</td>
+    <td>Ela</td>
+    <td>XI TJKT 1</td>
+    <td>80</td>
+    <td>78</td>
+    <td>86</td>
+    <td>90</td>
+    <td>98</td>
   </tr>
+  <td>2</td>
+    <td>Shifa</td>
+    <td>XI TJKT 1</td>
+    <td>96</td>
+    <td>80</td>
+    <td>78</td>
+    <td>75</td>
+    <td>100</td>
+  </tr>
+    <td>3</td>
+    <td>lifana</td>
+    <td>XI TJKT 1</td>
+    <td>80</td>
+    <td>79</td>
+    <td>80</td>
+    <td>80</td>
+    <td>92</td>
+  </tr>
+    <td>4</td>
+    <td>Ikfina</td>
+    <td>XI TJKT 1</td>
+    <td>80</td>
+    <td>82</td>
+    <td>77</td>
+    <td>92</td>
+    <td>75</td>
 </table>
-
 </body>
-<h2>A header that spans two columns</h2>
-
-<p>Use the colspan attribute to have a header span over multiple columns.</p>
-
-<table style="width:100%">
-  <tr>
-    <th>NAMA</th>
-    <th>KELAS</th>
-    <th colspan="2">NILAI</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>XI TJKT 1</td>
-    <th>50</th>
-    <th>80</th>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>XI TJKT 1</td>
-    <td>94</td>
-    <td>97</td>
-  </tr>
 </html>
-
-
-
 
